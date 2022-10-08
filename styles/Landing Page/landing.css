@@ -8,6 +8,28 @@ body{
     background-color: #004d95;
 }
 
+button{
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 25px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 2.5rem;
+    background-color: rgba(0,22,42,.3);
+}
+
+button:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+button:active{
+    scale: 1;
+    background-color: rgba(0,22,42,.9);
+}
+
 .titleText{
     font-size: xx-large;
     font-weight: bolder;
@@ -58,26 +80,7 @@ body{
     width: 55%;
 }
 
-.hero button {
-    color: white;
-    border: none;
-    font-size: large;
-    border-radius: 25px;
-    width: 70%;
-    min-width: 15rem;
-    height: 2.5rem;
-    background-color: rgba(0,22,42,.3);
-}
 
-.hero button:hover{
-    cursor: pointer;
-    scale: 1.1;
-}
-
-.hero button:active{
-    scale: 1;
-    background-color: rgba(0,22,42,.9);
-}
 
 .whatWeTransfer{
     display: flex;
@@ -128,17 +131,6 @@ body{
     width: 30%;
 }
 
-.oddPart .oddPartText button{
-    color: white;
-    border: none;
-    font-size: large;
-    border-radius: 25px;
-    width: 50%;
-    min-width: 40%;
-    height: 2.5rem;
-    background-color: rgba(0,22,42,.3);
-}
-
 .evenPart{
     display: flex;
     align-items: center;
@@ -158,18 +150,6 @@ body{
     flex-direction: column;
     gap: 1rem;
     width: 30%;
-}
-
-.evenPart .evenPartText button{
-    box-sizing: unset;
-    color: white;
-    border: none;
-    font-size: large;
-    border-radius: 25px;
-    background-color: rgba(0,22,42,.3);
-    width: fit-content+20px;
-    min-width: fit-content;
-    height: 2.5rem;
 }
 
 .testimonials{
@@ -206,3 +186,36 @@ body{
     background-color: #00386b;
 }
 
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer .address{
+    width: 20;
+}
+
+.footer .hours{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.footer .hours .hoursList{
+    display: flex;
+    gap: 2rem;
+}
+
+.footer .address,
+.footer .contacts,
+.footer .hours{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    scale: 0.8;
+}
