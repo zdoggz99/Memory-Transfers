@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 15vh;
+     background-color: #00386b;
+     padding-left: 200px;
+     padding-right: 200px;
+}
+
+.header ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}

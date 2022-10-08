@@ -1,0 +1,39 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 80px;
+}
+
+.hero .heroText{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+.hero .subText{
+    width: 55%;
+}
+
+.hero button {
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 25px;
+    width: 70%;
+    min-width: 15rem;
+    height: 2.5rem;
+    background-color: rgba(0,22,42,.3);
+}
+
+.hero button:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.hero button:active{
+    scale: 1;
+    background-color: rgba(0,22,42,.9);
+}

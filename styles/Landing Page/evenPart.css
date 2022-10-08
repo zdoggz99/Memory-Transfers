@@ -1,0 +1,32 @@
+.evenPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 80px;
+}
+
+.evenPart img{
+    scale: 0.8;
+}
+
+.evenPartText{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 30%;
+}
+
+.evenPart .evenPartText button{
+    box-sizing: unset;
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 25px;
+    background-color: rgba(0,22,42,.3);
+    width: fit-content+20px;
+    min-width: fit-content;
+    height: 2.5rem;
+}

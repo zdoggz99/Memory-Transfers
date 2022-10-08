@@ -1,0 +1,12 @@
+.ourMission{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 1rem;
+    background-color: #00386b;
+}
+

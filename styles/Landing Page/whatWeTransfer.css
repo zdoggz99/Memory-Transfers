@@ -1,0 +1,24 @@
+.whatWeTransfer{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 80px;
+}
+
+.whatWeTransfer .logoContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,22,42,.2);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.whatWeTransfer .logoContainer img{
+    scale: 0.8;
+}
