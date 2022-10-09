@@ -212,7 +212,7 @@ button:active{
     justify-content: space-between;
     padding-left: calc(var(--padding) - 80px);
     padding-right: calc(var(--padding) - 80px);
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #00386b;
@@ -247,5 +247,9 @@ button:active{
 @media (max-width: 600px){
     :root{
         --padding: 1rem;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
     }
 }
